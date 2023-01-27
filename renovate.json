@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "matchManagers": ["nuget"],
+      "matchPackageNames": ["Spectre.Cli"],
+      "replacementName": "Spectre.Console.Cli",
+      "replacementVersion": "0.45.0"
+    }
+  ]
+}
